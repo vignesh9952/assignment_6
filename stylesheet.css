@@ -1,0 +1,325 @@
+@media only screen and (min-width:320px) and (max-width:768px) {
+    body{
+        width: 100%;
+    }
+.width{
+    font-size: 80%;
+}
+.postion{
+    width: 100%;
+    font-size: 80%;
+}
+.width .cont1{
+    margin: 10px;
+}
+.width .cont2{
+    margin: 10px;
+}
+.postion .two1{
+    margin-bottom: 10px;
+}
+.row2 .firstcols1{
+    margin: 0px;
+}
+.firstcols1 {
+    width: 50%;
+    
+}
+.secondcols{
+    width: 50%;
+}
+}
+
+*{
+    box-sizing: border-box;
+}
+.row{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;    
+    }
+.header1{
+    word-spacing: 5px;
+        }
+#header2{
+    word-spacing: 2px;
+}
+
+.header1 .cols1{
+     color: white;
+    font-size: x-small;
+}
+
+
+#header2 .para1{
+    color: white;
+    font-size: x-small;
+}
+
+/*secondrowcss*/
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.row2 .firstcols1{
+    flex-basis: 150px;
+    margin-left: 50px;
+}    
+
+.row2 .img{
+    float: right;
+}
+
+.row2 h2{
+    color: green;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+ .logis{
+     color: green;
+    font-size: 10px;
+    margin-top: 0px;
+}
+.row2 .secondcols{
+    display:flex;
+    flex-direction: column;
+    flex-basis: 250px;
+}
+
+.thirdcols2 {
+text-align:center;
+flex-basis: 500px;
+align-self: center;
+}
+
+.thirdcols2 .innercols{
+    
+    font-size: 10px;
+    
+}
+.thirdcols2 .green{
+    background-color: rgb(138, 255, 22);
+    padding: 10px;
+    color: white;
+}
+.clear{
+    clear: both;
+}
+/*thirdrow*/
+.width{
+    display: flex;
+    padding: 10%;
+    justify-content: space-between;
+    background-image: url(background_1.jpg);
+    background-size: cover;
+    
+}
+.cont1{
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    opacity: 70%;
+    }
+
+   .cont2 {
+        text-align: center;
+        margin: 20px;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        
+        }
+        .width .cont2 h3{
+            background-color: rgba(228, 226, 225, 0.856);
+            padding: 15px;
+            margin-top: 0px;
+        }
+    .width .cont1 h3{
+        background-color: rgba(228, 226, 225, 0.856);
+        padding: 15px;
+        margin-top: 0px;
+    }
+    .width h6{
+        background-color: rgb(0, 255, 0);
+        /*
+        padding:3px 51px 2px 51px ;*/
+        padding: 15px;
+        font-size: 8px;
+        color: white;
+        margin: 0px;
+    }
+    /*forthrow*/
+    .fourthrow{
+        display: flex;
+        margin: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .fourthrow .first .firstcols{
+        display: flex;
+        background-image: url(sqare_image.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 300px;
+        width: 300px;
+    }
+     .lastcols{
+        background-color: rgba(0, 0, 0, 0.185);        
+        align-self: flex-end;
+        flex-basis: 300px;
+        text-align: center;
+    }
+     .lastcols h5{
+
+     margin-bottom: 0px;
+    }
+    .lastcols p{
+     margin-top: 5px;
+    }
+    .lastcols span{
+        color:rgb(119, 207, 31);
+        border: solid rgb(119, 207, 31) 1px ;
+        font-size: 13px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    /*fourthrow secondcols*/
+    .fourthrow .second{
+     display: flex;
+     flex-direction: column;
+     margin-left: 20px;
+
+     
+     
+    }
+    .secfirst img{
+        border: solid black 1px;
+    }
+    .secfirst{
+        display: flex;
+        padding: 10px;
+            
+        flex-direction: row;   
+    }
+        
+    .imgpara h5{
+        margin: 0px 0px 0px 10px;
+    }
+    .imgpara .small{
+        margin: 2px 0px auto 10px;
+        font-size: 8px;
+    }
+    .imgpara p{
+        margin: 4px 0px 0px 10px;
+        font-size: 15px;
+    }
+    .imgpara h6{
+        text-align: center;
+        color:rgb(119, 207, 31) ;
+        border: solid rgb(119, 207, 31) 1px;
+        width: 100px;
+        margin: 10px 0px 0px 10px;   
+    }
+    /*fifth*/
+    .fifth{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .h4{
+        margin-bottom: 2px;
+    }
+    .mar{
+        margin-top: 0px;
+    }
+    .two1{
+        display: flex;
+        justify-content: center;
+    }
+    .two{
+        display: flex;
+        background-image: url(sqare_image.jpg);
+        width: 150px;
+        height: 100px;
+        
+    }
+    .orange{
+        background-color: orange;
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .white{
+        color: white;
+    }
+    .read{
+        border: solid 1px white;
+        color: white;
+        font-size: 10px;
+    }
+    .postion{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    /*footer*/
+    .darkbrown{
+        background-color: rgba(48, 47, 47, 0.788);
+        margin-top: 20px;
+    }
+    .sixth{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .fifthcols1{
+        text-align: left;
+        
+    }
+    .fifthhead{
+    color: rgb(204, 204, 204);
+    text-decoration:underline rgb(20, 20, 20) ;
+    }
+    .fifthpara{
+    color: rgb(214, 209, 209);
+    }
+    .span1{
+    color:rgb(214, 209, 209) ;
+    }
+    .fifthcols2{
+        text-align: left;
+    }
+    .ul{
+        color: greenyellow;
+        list-style: none;
+        padding: 0px;
+    }
+    .li1{
+        margin-bottom: 10px;
+    }
+    .txt{
+        background-color:rgb(214, 209, 209) ;
+    }
+    .submit strong{
+        background-color: yellowgreen;
+        color: white;
+        padding: 5px;
+    }
+
+    .social img{
+        margin-top: 30px;
+
+    }
+    .copyright{
+        background-color: black;
+        padding: 5px;
+    }
+    .copyright p{
+        color:rgb(214, 209, 209);
+        margin-left: 70px;
+    }
