@@ -28,6 +28,10 @@
 .secondcols{
     width: 50%;
 }
+.copyright p{
+    font-size: 10px;
+    margin: 0px;
+}
 }
 
 *{
