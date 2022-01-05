@@ -1,42 +1,3 @@
-body{
-    margin: 0px;
-}
-@media only screen and (min-width:320px) and (max-width:768px) {
-    body{
-        width: 100%;
-    }
-.width{
-    font-size: 80%;
-}
-.postion{
-    width: 100%;
-    font-size: 80%;
-}
-.width .cont1{
-    margin: 10px;
-}
-.width .cont2{
-    margin: 10px;
-}
-.postion .two1{
-    margin-bottom: 10px;
-}
-.row2 .firstcols1{
-    margin: 0px;
-}
-.firstcols1 {
-    width: 50%;
-    
-}
-.secondcols{
-    width: 50%;
-}
-.copyright p{
-    font-size: 10px;
-    margin: 0px;
-}
-}
-
 *{
     box-sizing: border-box;
 }
@@ -51,25 +12,24 @@ body{
         }
 #header2{
     word-spacing: 2px;
+    align-self: flex-end;
 }
 
 .header1 .cols1{
      color: white;
-    font-size: x-small;
+    font-size:small;
 }
-
-
-#header2 .para1{
+.para1{
     color: white;
-    font-size: x-small;
+    font-size:small;
 }
 
 /*secondrowcss*/
 .row2{
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
 }
+
 .row2 .firstcols1{
     flex-basis: 150px;
     margin-left: 50px;
@@ -82,31 +42,31 @@ body{
 .row2 h2{
     color: green;
     margin-bottom: 0px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
  .logis{
      color: green;
-    font-size: 10px;
+    font-size: 15px;
     margin-top: 0px;
 }
-.row2 .secondcols{
-    display:flex;
+.secondcols{
     flex-direction: column;
-    flex-basis: 250px;
+    flex-basis: 40%;
+    text-align: center;
 }
 
 .thirdcols2 {
-text-align:center;
-flex-basis: 500px;
-align-self: center;
+    display: flex;
+    flex-basis: 60%;
+    align-self: center;
+    justify-content: center;
 }
 
-.thirdcols2 .innercols{
-    
-    font-size: 10px;
-    
+.innercols{    
+    font-size: 19px;    
 }
+
 .thirdcols2 .green{
     background-color: rgb(138, 255, 22);
     padding: 10px;
@@ -122,24 +82,32 @@ align-self: center;
     justify-content: space-between;
     background-image: url(background_1.jpg);
     background-size: cover;
-    
+    flex-wrap: wrap;    
 }
+
 .cont1{
     text-align: center;
-    margin: 20px;
+    margin: 0px;
     background-color: rgb(255, 255, 255);
     color: black;
     opacity: 70%;
     }
+    
+    .cont1> p{
+        padding: 7%;
+        font-size: 20px;
+    }
 
    .cont2 {
         text-align: center;
-        margin: 20px;
         background-color: rgb(255, 255, 255);
-        color: black;
-        
+        color: black; 
         }
-        .width .cont2 h3{
+        .mid{
+            font-size: 20px;
+            padding: 7%;
+        }
+         .cont2 h3{
             background-color: rgba(228, 226, 225, 0.856);
             padding: 15px;
             margin-top: 0px;
@@ -149,12 +117,10 @@ align-self: center;
         padding: 15px;
         margin-top: 0px;
     }
-    .width h6{
+    .width  h6{
         background-color: rgb(0, 255, 0);
-        /*
-        padding:3px 51px 2px 51px ;*/
         padding: 15px;
-        font-size: 8px;
+        font-size: 15px;
         color: white;
         margin: 0px;
     }
@@ -166,18 +132,18 @@ align-self: center;
         flex-wrap: wrap;
 
     }
-    .fourthrow .first .firstcols{
+    .firstcols{
         display: flex;
         background-image: url(sqare_image.jpg);
         background-size: cover;
         background-attachment: fixed;
-        height: 300px;
-        width: 300px;
+        height: 350px;
+        width: 350px;
     }
      .lastcols{
         background-color: rgba(0, 0, 0, 0.185);        
         align-self: flex-end;
-        flex-basis: 300px;
+        flex-basis: 350px;
         text-align: center;
     }
      .lastcols h5{
@@ -198,9 +164,10 @@ align-self: center;
      display: flex;
      flex-direction: column;
      margin-left: 20px;
-
-     
-     
+    }
+    .options{
+        font-size: 17px;
+        margin: 0px 0px 0px 7px;
     }
     .secfirst img{
         border: solid black 1px;
@@ -217,13 +184,14 @@ align-self: center;
     }
     .imgpara .small{
         margin: 2px 0px auto 10px;
-        font-size: 8px;
+        font-size: 13px;
     }
     .imgpara p{
         margin: 4px 0px 0px 10px;
-        font-size: 15px;
+        font-size: 19px;
     }
     .imgpara h6{
+        font-size: 13px;
         text-align: center;
         color:rgb(119, 207, 31) ;
         border: solid rgb(119, 207, 31) 1px;
@@ -330,3 +298,74 @@ align-self: center;
         color:rgb(214, 209, 209);
         margin-left: 70px;
     }
+    /*mediaquaries_start*/
+    @media only screen and (min-width:320px) and (max-width:992px) {
+        .header1 .cols1{ 
+            font-size: x-small
+        }
+        .para1{
+            font-size: x-small;
+        }
+        .width{
+            font-size: 80%;
+            justify-content: center;
+        }
+        .thirdcols2{
+            flex-basis: 100%;
+        }
+        .innercols{
+            font-size: 11px;
+            word-spacing: -6px;
+        }
+        .cont1 p{
+            font-size: 15px;
+        }
+        .mid{
+            font-size: 15px;
+        }
+        .postion{
+            width: 100%;
+            font-size: 80%;
+        }
+        .width .cont1{
+            margin: 10px;
+        }
+        .width .cont2{
+            margin: 10px;
+        }
+        .width h6{
+            font-size: 11px;
+        }
+
+        .firstcols{
+            height: 300px;
+            width: 300px;
+        }
+        .options{
+            font-size: 13px;
+        }
+        .imgpara .small{
+            font-size: 10px;
+        }
+        .imgpara p{
+            font-size: 13px;
+        }
+        .postion .two1{
+            margin-bottom: 10px;
+        }
+        .secondcols{
+            flex-basis: 100%;
+        }
+        .copyright p{
+            font-size: 10px;
+            margin: 0px;
+        }
+        }
+        @media only screen and (min-width:992px) and (max-width:1200px){
+            .cont1 p{
+                font-size: 15px;
+            }
+            .mid{
+                font-size: 15px;
+            }
+        }
